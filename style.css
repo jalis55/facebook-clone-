@@ -68,12 +68,12 @@ nav{
 }
 
 .left-sidebar{
-    background: #cbdffa;
+    
     flex-basis: 25%;
     position: sticky;
     top:70px;
     align-self: flex-start;
-    height: 100vh;
+    
 
 }
 .main-content{
@@ -91,3 +91,23 @@ nav{
     align-self: flex-start;
     height: 100vh;
 }
+.imp-links a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color:#626262;
+    width: fit-content;
+}
+.imp-links a img{
+    width: 15px;
+    margin-right: 10px;
+}
+
+.imp-links a:last-child{
+    color: #1876f2;
+}
+
+.imp-links{
+    border-bottom: 1px solid #ccc;
+} 
