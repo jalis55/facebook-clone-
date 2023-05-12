@@ -84,12 +84,14 @@ nav{
     align-self: flex-start; */
 }
 .right-sidebar{
-    background: #cbdffa;
+    background: #fff;
     flex-basis: 25%;
     position: sticky;
     top:70px;
     align-self: flex-start;
-    height: 100vh;
+    /* height: 100vh; */
+    padding: 10px;
+    color:#626262'
 }
 .imp-links a,.short-cut-links a{
     text-decoration: none;
@@ -121,4 +123,20 @@ nav{
     margin: 20px 0;
     color:#626262;
     font-weight: 500;
+}
+.sidebar-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 18px;
+}
+.sidebar-title h4{
+    font-weight: 600;
+    font-size: 16px;
+}
+.sidebar-title a{
+    text-decoration:none;
+    color:#1876f2;
+    font-size: 16px;
+
 }
